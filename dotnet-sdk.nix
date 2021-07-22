@@ -25,11 +25,11 @@ in stdenv.mkDerivation rec {
     runHook postInstall
   '';
 
-  # postFixup = ''
-  #   patchelf --set-interpreter "${dynamicLinker}" --set-rpath "${rpath}" $out/dotnet
-  #   find $out -type f -name "*.so" -exec patchelf --set-rpath '$ORIGIN:${rpath}' {} ';'
-  #   find $out -type f -name "apphost" -exec patchelf --set-interpreter "${dynamicLinker}" --set-rpath '$ORIGIN:${rpath}' {} ';'
-  # '';
+   postFixup = if stdenv.isLinux then ''
+     patchelf --set-interpreter "${dynamicLinker}" --set-rpath "${rpath}" $out/dotnet
+     find $out -type f -name "*.so" -exec patchelf --set-rpath '$ORIGIN:${rpath}' {} ';'
+     find $out -type f -name "apphost" -exec patchelf --set-interpreter "${dynamicLinker}" --set-rpath '$ORIGIN:${rpath}' {} ';'
+   '' else '''';
 
   doInstallCheck = true;
   installCheckPhase = ''
