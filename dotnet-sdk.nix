@@ -1,4 +1,3 @@
-
 { stdenv, lib, fetchurl, libunwind, openssl, icu, libuuid, zlib, curl, patchelf }:
 let
   rpath = lib.makeLibraryPath [ stdenv.cc.cc libunwind libuuid icu openssl zlib curl ];
