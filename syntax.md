@@ -1,6 +1,6 @@
-# 95 % of all nix syntax: 
+# 95 % of all nix syntax:
 
-## Attribute set 
+## Attribute set
 
 Attribute sets are records of key=value data, similar to `dict` in Python or an object in JavaScript / JSON:
 
@@ -44,7 +44,7 @@ And merge sets by using `//`
 }
 ```
 
-## Lists 
+## Lists
 
 Lists are separated by whitspace:
 
@@ -62,9 +62,11 @@ Lists have higher precedence than almost all other constructs, so any complex it
 ## Lambdas 
 
 Anonymous functions that can only take one argument
+
 ```nix
 val: val + 1 
 ```
+
 Since they can be returned, you can simulate a function with more than one parameter:
 
 ```nix
@@ -77,7 +79,7 @@ Invoke the lambda by putting the argument after the lambda:
 (val: val +1) 5
 ```
 
-Similar to lists, no delimitor.
+Similar to lists, no delimiter.
 
 ## Let-binding
 
@@ -105,6 +107,7 @@ a + b + c
 ```
 
 ## With-statement
+
 With statements imports all items inside a set:
 
 ```nix
@@ -115,6 +118,7 @@ with {
 
 a + b 
 ```
+
 But best practices, prefer `let` statements to define variables. Use `with` sparingly.
 
 ## If-statements
@@ -140,7 +144,7 @@ assert 2 == 2;
 
 ## Paths and URLs
 
-Nix has special syntax for file paths and URL's, which can be observed using the `toString` buildtIn.
+Nix has special syntax for file paths and URL's, which can be observed using the `toString` build-in.
 
 ```nix
 # Becomes the absolute path to ./test.nix
@@ -151,9 +155,9 @@ file = toString ./test.nix;
 url = toString https://google.com
 ```
 
-## Imports 
+## Imports
 
-Imports are nothing special, they merge files: 
+Imports are nothing special, they merge files:
 
 ```nix
 # default.nix:
@@ -162,6 +166,7 @@ let
 in 
     lib.fac 5
 ```
+
 ```nix
 # lib.nix:
 {
@@ -170,6 +175,7 @@ fac = n: if n == 0
     else n * (fac (n - 1));
 }
 ```
+
 Becomes:
 
 ```nix
@@ -186,9 +192,9 @@ in
     lib.fac 5
 ```
 
-## Patterns 
+## Patterns
 
-When importing, it is possible to destruct a set of parameters with default values on-the-fly, which is why `nix` has basic pattern matching: 
+When importing, it is possible to destruct a set of parameters with default values on-the-fly, which is why `nix` has basic pattern matching:
 
 ```nix
 # default.nix:
@@ -205,6 +211,7 @@ When importing, it is possible to destruct a set of parameters with default valu
 }
 
 ```
+
 Patterns can take optional values:
 
 ```nix
@@ -216,6 +223,7 @@ Or Required:
 ```nix
 required, 
 ```
+
 And ignore extra arguments:
 
 ```nix
@@ -228,11 +236,12 @@ Bind the entire set of pattern matching using
 { a, b, c, ... } @ myset: ...
 ```
 
-or 
+or
 
 ```nix
 myset @ { a, b, c, ... }: ...
 ```
+
 results in a set where `a`, `b`, and `c` exists as well as possibly some other values (thanks to the ellipsis).
 
 ### String interpolation
