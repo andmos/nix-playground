@@ -7,8 +7,8 @@ Attribute sets are records of key=value data, similar to `dict` in Python or an 
 ```nix
 {
     meaningOfLife = 42;
-    pi = 3.14159
-    someOtherKey = myKey
+    pi = 3.14159;
+    someOtherKeyString = "myKey";
 }
 ```
 
@@ -17,7 +17,7 @@ Items in the set can't reference other items in the same set unless the set is m
 ```nix
 rec {
     pi_int = 3;
-    pi_decimal = 0.14159
+    pi_decimal = 0.14159;
     
     pi = pi_int + pi_decimal;
 }
@@ -59,7 +59,7 @@ Lists have higher precedence than almost all other constructs, so any complex it
 [ 1 (1 + 1) 3 ]
 ```
 
-## Lambdas 
+## Lambdas
 
 Anonymous functions that can only take one argument
 
@@ -73,7 +73,7 @@ Since they can be returned, you can simulate a function with more than one param
 lhs: (rhs: lhs + rhs)
 ```
 
-Invoke the lambda by putting the argument after the lambda: 
+Invoke the lambda by putting the argument after the lambda:
 
 ```nix
 (val: val +1) 5
