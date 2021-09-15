@@ -201,7 +201,7 @@ When importing, it is possible to destruct a set of parameters with default valu
 ```nix
 # default.nix:
 {
-    user1 = (import ./user.nix) { firstname = "Bob"; lastname = "Smith" };
+    user1 = (import ./user.nix) { firstname = "Bob"; lastname = "Smith"; };
     user2 = (import ./user.nix) { lastname = "Doe"; };
 }
 
