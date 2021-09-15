@@ -4,9 +4,11 @@ let
   dynamicLinker = stdenv.cc.bintools.dynamicLinker;
   platform = "osx-x64";
   sha512 = "19360f4b82422b768cb15268edbac9b2cfef77a31985a5b75a46222a20ef2434ad263fa5ef95f1dba000b8bf5e15d99a698575f8803052596a54a3d8c67b1f16";
-in stdenv.mkDerivation rec {
   pname = "dotnet-sdk";
   version = "5.0.302";
+in stdenv.mkDerivation {
+  pname = "${pname}";
+  version = "${version}";
 
   src = fetchurl {
     inherit sha512;
