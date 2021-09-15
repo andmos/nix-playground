@@ -153,7 +153,7 @@ Nix has special syntax for file paths and URL's, which can be observed using the
     file = toString ./test.nix; 
 
     # Literally becomes "https://google.com" 
-    url = toString https://google.com
+    url = toString https://google.com;
 }
 ```
 
