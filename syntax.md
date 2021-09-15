@@ -147,12 +147,14 @@ assert 2 == 2;
 Nix has special syntax for file paths and URL's, which can be observed using the `toString` build-in.
 
 ```nix
-# Becomes the absolute path to ./test.nix
-# i.e /home/user/nix/test.nix
-file = toString ./test.nix; 
+{
+    #  Becomes the absolute path to ./test.nix
+    # i.e /home/user/nix/test.nix
+    file = toString ./test.nix; 
 
-# Literally becomes "https://google.com" 
-url = toString https://google.com
+    # Literally becomes "https://google.com" 
+    url = toString https://google.com
+}
 ```
 
 ## Imports
