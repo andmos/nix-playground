@@ -8,6 +8,8 @@
 
 [How to Learn Nix](https://ianthehenry.com/posts/how-to-learn-nix/introduction/)
 
+[Kubernetes on nixOS using k3s](https://aditsachde.com/posts/k3s-nix-p1/)
+
 ## Official doc
 
 [Build an environment](https://nixos.org/manual/nixpkgs/stable/#sec-building-environment)
