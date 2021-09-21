@@ -13,4 +13,5 @@
 ## Official doc
 
 [Build an environment](https://nixos.org/manual/nixpkgs/stable/#sec-building-environment)
+
 [The Standard Environment](https://nixos.org/manual/nixpkgs/stable/#chap-stdenv)
