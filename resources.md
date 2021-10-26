@@ -16,6 +16,12 @@
 
 [NixOS on Framework laptop](http://kvark.github.io/linux/framework/2021/10/17/framework-nixos.html)
 
+## Repos and inspiration
+
+[mitchellh/nixos-config](https://github.com/mitchellh/nixos-config)
+[NixOS VM on Mac Setup](https://www.youtube.com/watch?v=ubDMLoWz76U)
+
+
 ## Official doc
 
 [Build an environment](https://nixos.org/manual/nixpkgs/stable/#sec-building-environment)
