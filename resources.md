@@ -10,6 +10,8 @@
 
 [NixOS and the Art of OS Configuration](https://www.rousette.org.uk/archives/nixos-and-the-art-of-os-configuration/)
 
+[Declarative management of dotfiles with Nix and Home Manager](https://www.bekk.christmas/post/2021/16/dotfiles-with-nix-and-home-manager)
+
 ## Dated posts
 
 [Using Nix to set up my new Mac](https://adrianhesketh.com/2020/07/03/mac-setup-with-nix-darwin/)
