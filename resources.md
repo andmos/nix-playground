@@ -23,9 +23,12 @@
 [mitchellh/nixos-config](https://github.com/mitchellh/nixos-config)
 [NixOS VM on Mac Setup](https://www.youtube.com/watch?v=ubDMLoWz76U)
 
-
 ## Official doc
 
 [Build an environment](https://nixos.org/manual/nixpkgs/stable/#sec-building-environment)
 
 [The Standard Environment](https://nixos.org/manual/nixpkgs/stable/#chap-stdenv)
+
+## Other useful stuff
+
+[Search for older packages](https://github.com/lazamar/nix-package-versions)
