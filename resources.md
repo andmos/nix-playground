@@ -1,5 +1,7 @@
 ## Blogposts
 
+[Exploring Nix](https://thewagner.net/blog/2020/04/30/exploring-nix/)
+
 [MacOS Nix Setup (an alternative to Homebrew)](https://wickedchicken.github.io/post/macos-nix-setup/)
 
 [Package management with Nix](https://matthisk.com/nix-for-reproducible-development-environments/)
@@ -11,6 +13,7 @@
 [NixOS and the Art of OS Configuration](https://www.rousette.org.uk/archives/nixos-and-the-art-of-os-configuration/)
 
 [Declarative management of dotfiles with Nix and Home Manager](https://www.bekk.christmas/post/2021/16/dotfiles-with-nix-and-home-manager)
+
 
 ## Videos
 
@@ -25,7 +28,10 @@
 ## Repos and inspiration
 
 [mitchellh/nixos-config](https://github.com/mitchellh/nixos-config)
+
 [NixOS VM on Mac Setup](https://www.youtube.com/watch?v=ubDMLoWz76U)
+
+[Examples of using the docker tools to build packages](https://github.com/NixOS/nixpkgs/blob/master/pkgs/build-support/docker/examples.nix)
 
 ## Official doc
 
@@ -36,3 +42,8 @@
 ## Other useful stuff
 
 [Search for older packages](https://github.com/lazamar/nix-package-versions)
+
+>derive, obtain something from (a specified source).
+
+>derivation, Mathematics:
+the process of deducing a new formula, theorem, etc., from previously accepted statements.
