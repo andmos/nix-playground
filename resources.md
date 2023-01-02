@@ -14,6 +14,7 @@
 
 [Declarative management of dotfiles with Nix and Home Manager](https://www.bekk.christmas/post/2021/16/dotfiles-with-nix-and-home-manager)
 
+[Using Nix on macOS](https://checkoway.net/musings/nix/)
 
 ## Videos
 
