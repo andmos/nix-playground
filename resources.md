@@ -34,6 +34,8 @@
 
 [Examples of using the docker tools to build packages](https://github.com/NixOS/nixpkgs/blob/master/pkgs/build-support/docker/examples.nix)
 
+[Zero To Nix](https://zero-to-nix.com)
+
 ## Official doc
 
 [Build an environment](https://nixos.org/manual/nixpkgs/stable/#sec-building-environment)
