@@ -16,6 +16,10 @@
 
 [Using Nix on macOS](https://checkoway.net/musings/nix/)
 
+## Tutorials
+
+[Nix journey part 0: Learning and reference materials](https://tinkering.xyz/nix-docs/)
+
 ## Videos
 
 [NYLUG Presents: Sneaking in Nix - Building Production Containers with Nix](https://www.youtube.com/watch?v=pfIDYQ36X0k)
