@@ -36,6 +36,8 @@
 
 [NixOS on Framework laptop](http://kvark.github.io/linux/framework/2021/10/17/framework-nixos.html)
 
+[Setup nix, nix-darwin and home-manager from scratch on an M1 Macbook Pro](https://gist.github.com/jmatsushita/5c50ef14b4b96cb24ae5268dab613050)
+
 ## Repos and inspiration
 
 [mitchellh/nixos-config](https://github.com/mitchellh/nixos-config)
