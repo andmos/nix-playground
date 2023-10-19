@@ -24,6 +24,8 @@
 
 [NixOS & Flakes Book: An unofficial book for beginners](https://nixos-and-flakes.thiscute.world/)
 
+[Practical NixOS by Drake Rossman](https://drakerossman.com/blog/practical-nixos-the-book) (work in progress)
+
 ## Videos
 
 [NYLUG Presents: Sneaking in Nix - Building Production Containers with Nix](https://www.youtube.com/watch?v=pfIDYQ36X0k)
