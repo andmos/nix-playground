@@ -64,4 +64,5 @@ the process of deducing a new formula, theorem, etc., from previously accepted s
 ## dotnet specifics
 
 [nixos wiki dotnet](https://ryantm.github.io/nixpkgs/languages-frameworks/dotnet/)
+
 [ryantm.github.io/nixpkgs/languages-frameworks/dotnet/](https://ryantm.github.io/nixpkgs/languages-frameworks/dotnet/)
