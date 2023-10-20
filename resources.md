@@ -24,6 +24,8 @@
 
 [NixOS & Flakes Book: An unofficial book for beginners](https://nixos-and-flakes.thiscute.world/)
 
+[Practical NixOS by Drake Rossman](https://drakerossman.com/blog/practical-nixos-the-book) (work in progress)
+
 ## Videos
 
 [NYLUG Presents: Sneaking in Nix - Building Production Containers with Nix](https://www.youtube.com/watch?v=pfIDYQ36X0k)
@@ -33,6 +35,8 @@
 [Using Nix to set up my new Mac](https://adrianhesketh.com/2020/07/03/mac-setup-with-nix-darwin/)
 
 [NixOS on Framework laptop](http://kvark.github.io/linux/framework/2021/10/17/framework-nixos.html)
+
+[Setup nix, nix-darwin and home-manager from scratch on an M1 Macbook Pro](https://gist.github.com/jmatsushita/5c50ef14b4b96cb24ae5268dab613050)
 
 ## Repos and inspiration
 
@@ -62,4 +66,5 @@ the process of deducing a new formula, theorem, etc., from previously accepted s
 ## dotnet specifics
 
 [nixos wiki dotnet](https://ryantm.github.io/nixpkgs/languages-frameworks/dotnet/)
+
 [ryantm.github.io/nixpkgs/languages-frameworks/dotnet/](https://ryantm.github.io/nixpkgs/languages-frameworks/dotnet/)
